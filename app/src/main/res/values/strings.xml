@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MemoryDAM_numeros</string>
+    <string name="titulo">ENCUENTRA LOS NUMEROS IGUALES</string>
+    <string name="BTNreset">RESET</string>
+    <string name="BTNsalir">Salir</string>
+    <string name="TVpuntuacion">Puntuación: </string>
+    <string name="TVintentos">Intentos: </string>
+</resources>

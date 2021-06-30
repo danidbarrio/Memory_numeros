@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LNLOUT1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TVtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/LNLOUTfila1"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BTN0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+        <Button
+            android:id="@+id/BTN1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+        <Button
+            android:id="@+id/BTN2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+        <Button
+            android:id="@+id/BTN3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LNLOUTfila2"
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BTN4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"
+            android:layout_weight="1"
+            android:paddingVertical="30dp" />
+
+        <Button
+            android:id="@+id/BTN5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+        <Button
+            android:id="@+id/BTN6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+        <Button
+            android:id="@+id/BTN7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LNLOUTfila3"
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BTN8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+        <Button
+            android:id="@+id/BTN9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+        <Button
+            android:id="@+id/BTN10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+        <Button
+            android:id="@+id/BTN11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="30dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_marginVertical="2dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TVresultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:text="@string/TVpuntuacion"
+        android:textSize="30sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/TVintentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:text="@string/TVintentos"
+        android:textSize="30sp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/BTNreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="160dp"
+        android:textSize="20sp"
+        android:text="@string/BTNreset" />
+
+    <Button
+        android:id="@+id/BTNsalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginHorizontal="160dp"
+        android:textSize="20sp"
+        android:text="@string/BTNsalir" />
+
+</LinearLayout>
